@@ -40,6 +40,13 @@ h1{
     background-repeat: no-repeat;
     text-align: center;
 }
+.logoTabla{
+    background-image: url(img/cabecera.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+}
 
 h2{
     margin-top: 0px;
@@ -66,8 +73,8 @@ h2{
     margin-right: auto;
     background-color: #06220a;
     border: #06220a 5px solid;
-    height:640px;
-    width: 1000px;
+    text-align: center;
+    table-layout: fixed;
 }
 
 .tabla2{
@@ -78,6 +85,10 @@ h2{
     height: 160px;
     width: 800px;
 }
+.tabla2 td{
+    background-color: #c1c500;
+    border: #06220a 3px solid;
+}
 
 td{
     text-align: center;
@@ -87,16 +98,111 @@ td{
     font-variant: Helvetica;
     border: #06220a 5px solid;
     b{
-        font-size: 35px;
+        font-size: 40px;
     }
     small{
         font-size: 10px;
     }
-    img{
-        width:100%;
-    }
 }
-#Marie{
+.Walter{
+    background-image: url(img/Tabla\ Peri¢dica/walterwhite.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-underline-position: below;
+    padding-top: 80px;
+    background-color:#b5da24;
+}
+.Skyler{
+    background-image: url(img/Tabla\ Peri¢dica/skylerwhite.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#b5da24;
+}
+.Saul{
+    background-image: url(img/Tabla\ Peri¢dica/saulgoodman.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#82a500;
+}
+.Jesse{
+    background-image: url(img/Tabla\ Peri¢dica/jessiepinkman.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#82a500;
+}
+.Hector{
+    background-image: url(img/Tabla\ Peri¢dica/hectorsalamanca.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#b5da24;
+}
+.Tuco{
+    background-image: url(img/Tabla\ Peri¢dica/tucosalamanca.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#b5da24;
+}
+.Gustavo{
+    background-image: url(img/Tabla\ Peri¢dica/gustavofrink.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#bac3a0;
+}
+.Gale{
+    background-image: url(img/Tabla\ Peri¢dica/gale.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#bac3a0;
+}
+.Badger{
+    background-image: url(img/Tabla\ Peri¢dica/badger.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#5f7112;
+    
+}
+.Mike{
+    background-image: url(img/Tabla\ Peri¢dica/mike.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-color:#bac3a0;
+}
+.Marie{
+    background-image: url(img/Tabla\ Peri¢dica/marieschrader.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
     background-color: #a34fad;
 }
 
@@ -131,21 +237,77 @@ td{
 .td_gris{
     background-color: #bac3a0;
 }
-.td_tabla2{
-    background-color: #c1c500;
-    border: #06220a 3px solid;
+.cristal{
+    background-image: url(img/Tabla\ Peri¢dica/cristal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
-
+.pizza{
+    background-image: url(img/Tabla\ Peri¢dica/pizza.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.calzoncillos{
+    background-image: url(img/Tabla\ Peri¢dica/calzoncillos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.pocima{
+    background-image: url(img/Tabla\ Peri¢dica/pocima.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.mascara{
+    background-image: url(img/Tabla\ Peri¢dica/mascara.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.movil{
+    background-image: url(img/Tabla\ Peri¢dica/movil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.plato{
+    background-image: url(img/Tabla\ Peri¢dica/plato.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.pistola{
+    background-image: url(img/Tabla\ Peri¢dica/pistola.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.mosca{
+    background-image: url(img/Tabla\ Peri¢dica/mosca.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.bus{
+    background-image: url(img/Tabla\ Peri¢dica/bus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 div{
     padding: 10px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.354);
-    border: #ffffff 2px outset;
+    border: #9ed270 2px outset;
     border-radius: 10px;
+    display: grid;
 }
 
 .div_principal{
-    display: grid;
+    display: grid ;
     place-items: center;
     height: auto;
     width: 400px;
