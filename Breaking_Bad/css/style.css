@@ -205,7 +205,12 @@ td{
     padding-bottom: 80px;
     background-color: #a34fad;
 }
-
+.Hank {
+    background-image: url(img/Tabla\ Peri¢dica/hankschrader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 .td_verde1{
     background-color: #b5da24;
 }
@@ -297,29 +302,52 @@ td{
     background-size: contain;
     background-position: center;
 }
-div{
-    padding: 10px;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.354);
-    border: #9ed270 2px outset;
-    border-radius: 10px;
-    display: grid;
-}
-
-.div_principal{
-    display: grid ;
-    place-items: center;
+form{
+    width: 300px;
     height: auto;
-    width: 400px;
-    border: #b5da24 3px outset;
-    border-radius: 22px;
-    text-align: left;
+    border: 2px solid rgb(20, 195, 20);
+    background-color: #bac3a04b;
+    border-radius: 10px;
+    margin: auto;
+    padding: 2rem;
+}
+.campoForm{
+    display: block;
+}
+.campoForm label{
+    display: inline-block;
+    width: 4rem;
+    margin: 0.5rem 0rem;
+}
+textarea{
+    width: 80%;
+    height: 60%;
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#enviar{
+    background-color: #7f8e46;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+#borrar{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+#mensaje{
+    resize: none;
+}
+.campoForm select{
+    display: inline-block;
+    width: 8rem;
+    margin-left: auto;
+    
 }
 
-.Hank {
-    background-image: url(img/Tabla\ Peri¢dica/hankschrader.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
 
