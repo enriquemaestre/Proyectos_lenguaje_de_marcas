@@ -173,7 +173,10 @@ footer {
         padding-top: 10px;
         height: 10vh;
     }
+    
+   
 }
+
 a {
     margin-left: 2px;
     text-align: right;
@@ -200,6 +203,8 @@ a {
 }
 .campoForm{
     display: block;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .campoForm label{
     display: inline-block;
@@ -212,6 +217,7 @@ textarea{
     display: flex;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    margin-left: 10px;
 }
 #enviar{
     background-color: #7f8e46;
@@ -238,4 +244,123 @@ textarea{
 }
 form fieldset{
     display: block;
+    margin: 15px;
 }
+.contenedor-tabla {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 800px;
+    min-width: 400px; 
+    background-color: #359578;
+    color: white;
+    margin: auto;
+  }
+  
+  tr, td {
+    border: 1px solid #06220a;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    word-break: break-word;
+    white-space: normal;
+  }
+  
+  td ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    display: block;
+    overflow: visible;
+    white-space: normal;
+  }
+  
+  td ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  .titulos{
+    width: 20vh;
+    
+  }
+  .proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #359578;
+  }
+  .card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+  }
+  .card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .card .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0px 5px 10px #000;
+    background-color: white;
+  }
+  .card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card .front h3{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(5, 47, 13);
+    background: #0000003d;
+    text-align: center;
+  }
+  .card .back{
+    transform: perspective(600px) rotateY(180deg);
+    box-shadow: 0px 5px 10px #000;
+    background-color: rgb(5, 84, 10);
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .card .back .link{
+    border-top: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+  }
+  .card .back .link{
+    color: white;
+  }
+  .card .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+  .card .back p{
+    letter-spacing: 1px;
+    color: white;
+  }
+  .card:hover .front{
+    transform: perspective(600px)rotateY(180deg);
+  }
+  .card:hover .back{
+    transform: perspective(600px)rotateY(360deg);
+  }
+  
