@@ -363,4 +363,7 @@ form fieldset{
   .card:hover .back{
     transform: perspective(600px)rotateY(360deg);
   }
-  
+  .enlaceProy{
+    color: white;
+    text-decoration: none;
+  }
