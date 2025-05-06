@@ -101,48 +101,6 @@ main p {
     margin: 1rem 0;
 }
 
-main form {
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.primary-btn {
-    margin: 0 0.5rem;
-    width: 8rem;
-    height: 2.5rem;
-    font-size: 1.1rem;
-    background-color: var(--primary);
-    color: var(--white-text);
-    border-style: none;
-    margin-top: 20px;
-}
-
-.outline-btn {
-    margin: 0 0.5rem;
-    width: 8rem;
-    height: 2.5rem;
-    font-size: 1.1rem;
-    background-color: var(--white-text);
-    color: var(--primary);
-    border: solid 0.1rem var(--primary);
-    margin-top: 20px;
-}
-
-.primary-btn:hover {
-    background-color: var(--white-text);
-    color: var(--primary);
-    border-style: none;
-    transition: all 0.3s;
-}
-
-.outline-btn:hover {
-    background-color: var(--primary);
-    color: var(--white-text);
-    border-style: none;
-    transition: all 0.3s;
-}
 
 main img {
     height: 70vh;
@@ -163,7 +121,10 @@ footer {
 
 /***************************************************************************/
 
-@media(max-width:1020px) {
+@media(max-width:992px) {
+    header{
+        height: 10vh;
+    }
     nav {
         justify-content: flex-start;
     }
@@ -198,7 +159,7 @@ footer {
     }
     main {
         flex-direction: column;
-        height: auto;
+        height: 80vh;
         padding-bottom: 15px;
     }
     .image img{
@@ -206,7 +167,6 @@ footer {
         padding-bottom: 10px;
         padding-top: 15px;
         margin-bottom: 1rem;
-        
     }
     footer {
         text-align: center;
